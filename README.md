@@ -42,7 +42,7 @@ This starts Kafka (port 9092) and PostgreSQL (port 5432).
 ```bash
 python -m venv .venv
 source .venv/bin/activate
-pip install kafka-python fastapi uvicorn scikit-learn numpy psycopg2-binary
+pip install -r requirements.txt
 ```
 
 ### 3. Train the model
